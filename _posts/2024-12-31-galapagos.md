@@ -1,14 +1,14 @@
 ---
 layout: post
-title: a post with images
-date: 2015-05-15 21:01:00
-description: this is what included images could look like
-tags: formatting images
-categories: sample-posts
+title: A Journey through the Captivating Galápagos Islands
+date: 2024-12-31 13:01:00
+description: Encounter with the Giant Tortoises, Penguins, Boobies, Sea Lions and Sharks
+tags: travel photography
+categories: travel
 thumbnail: assets/img/9.jpg
 ---
 
-This is an example post with image galleries.
+This is an example post with image galleries
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
