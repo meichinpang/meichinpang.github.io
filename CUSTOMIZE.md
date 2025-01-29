@@ -199,7 +199,7 @@ To remove the news section, you can:
 - remove the `announcements` part in [\_pages/about.md](_pages/about.md)
 - remove the news part in the `Collections` section in the [\_config.yml](_config.yml) file
 
-### Removing the projects page
+<!-- ### Removing the projects page
 
 To remove the projects, you can:
 
@@ -211,7 +211,7 @@ To remove the projects, you can:
 You can also:
 
 - delete [\_includes/projects_horizontal.liquid](_includes/projects_horizontal.liquid)
-- delete [\_includes/projects.liquid](_includes/projects.liquid)
+- delete [\_includes/projects.liquid](_includes/projects.liquid) -->
 
 ### Removing the publications page
 
