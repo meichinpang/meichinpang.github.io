@@ -233,12 +233,12 @@ You can also:
 - delete [\_plugins/inspirehep-citations.rb](_plugins/inspirehep-citations.rb)
 - remove the `jekyll-scholar` gem from the [Gemfile](Gemfile) and the `plugins` section in [\_config.yml](_config.yml)
 
-### Removing the repositories page
+<!-- ### Removing the repositories page
 
 To remove the repositories, you can:
 
 - delete the repositories page [\_pages/repositories.md](_pages/repositories.md)
-- delete [\_includes/repository/](_includes/repository/) directory
+- delete [\_includes/repository/](_includes/repository/) directory -->
 
 ## Adding Token for Lighthouse Badger
 
