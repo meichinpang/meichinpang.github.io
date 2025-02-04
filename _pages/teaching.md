@@ -9,7 +9,7 @@ nav_order: 3
 
 Mei-Chin Pang, Nagihiro Haba, Takuma Kasahara, Saneyuki Ohno. Benchmarking Data-driven Anomaly Detection in Battery Cycling Protocols. In International Bunsen Discussion Meeting on Solid-State Batteries VI – From Fundamentals to Application, Frankfurt, November 13 - 15, 2024. [Link](https://www.uni-giessen.de/de/fbz/zentren/lama/events/ssb)
 
-Mei-Chin Pang. JSPS Fellowship Summary Report. In JSPS Junior Forum 2024, TU Dortmund, November 2, 2024. [Link](https://www.jsps-club.de/en/about-us/the-jsps-club)
+Mei-Chin Pang. JSPS Fellowship Report. In JSPS Junior Forum 2024, TU Dortmund, November 2, 2024. [Link](https://www.jsps-club.de/en/about-us/the-jsps-club)
 
 Mei-Chin Pang. Everything You Need to Know About AI in Your Electric Vehicles Batteries. In Kigaru ni Austausch, DAAD Tokyo, October 30, 2024. [Link](https://www.daad.jp/de/2024/04/05/presentationcoaching2024/)
 

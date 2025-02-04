@@ -19,11 +19,11 @@ This Japanese professor, who is also the head of the research group, is in his 6
 
 To be honest, I was very surprised to learn his responses to our AI discussions during the talk. He printed out several papers with different diagrams and asked me whether these research problems could be solved by AI. He went on to explain how he learned about reinforcement learning from Alpha Go and was enthusiastic that AI is also applicable for battery applications! At that point, all the bias I have heard from others just shattered in his office after the discussion.
 
-I was even surprised the next few days when he ordered several books on programming and AI in Japanese language for his students, and encouraged them to study the books for their future. If all the biases I have heard previously are true, these professors should be concerned about the advancement of AI in battery research. Undoubtedly, AI might make some works redundant and obsolete, for example, through AI-driven automation in battery manufacturing and testing. However, I see a completely different response from these professors. Instead of worrying about the possibility of AI replacing some tasks in their research, they asked, “How can we adapt to keep up with future advances of AI in our lines of work?”
+I was even surprised the next few days when he ordered several books on programming and AI in Japanese language for his students, and encouraged them to study the books for their future. If all the biases I have heard previously are true, these professors should be concerned about the advancement of AI in battery research. Undoubtedly, AI might make some works redundant and obsolete, for example, through AI-driven automation in battery manufacturing and testing. However, I see a completely different response from these professors. Instead of worrying about the possibility of AI replacing some tasks in their research, they asked, “How can we adapt to keep up with future applications of AI in our lines of work?”
 
 There were no generational gaps, cultural differences or communication barriers in our meetings. Instead, we were exploring different possibilities to combine experimental expertise with AI to do cutting-edge research together.
 
-I was really proud of my professors in Japan. Their responses towards AI adoption should be an example for all to follow. The future is AI, and yes, sometimes it may sound scary to some of us, but I believe that each of us could contribute towards making AI accessible, effective and safe for all.
+I am really proud of my professors in Japan. Their responses towards AI adoption should be an example for all to follow. The future is AI, and yes, sometimes it may sound scary to some of us, but I believe that each of us could contribute towards making AI accessible, effective and safe for all.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -31,7 +31,7 @@ I was really proud of my professors in Japan. Their responses towards AI adoptio
     </div>
 </div>
 
-Most AI researchers usually use Python for different machine-learning applications, but I came across this book about Julia at the local book store of the Tohoku University. Julia provides powerful libraries like `Flux.jl` and `MLJ.jl`, which enables fast model training and deep learning with automatic differentiation. While I am very comfortable with using Python, I am opened to learning Julia as my next programming language, just like my Japanese professors, who are opened to adopting AI in their research,
+Most AI researchers usually use Python for different machine-learning applications, but I came across this book about Julia at the local book store of the Tohoku University. Like Python, Julia also provides powerful libraries such as `Flux.jl` and `MLJ.jl`, which enables fast model training and deep learning with automatic differentiation. While I am very comfortable with using Python, I am opened to learning Julia as my next programming language, just like my Japanese professors, who are opened to adopting AI in their research.
 
 **References:**
 

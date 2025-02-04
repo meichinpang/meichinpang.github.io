@@ -65,7 +65,7 @@ If you want to create blog posts that are not ready to be published, but you wan
 
 ## Creating new projects
 
-You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it.
+<!-- You can create new projects by adding new Markdown files in the [\_projects](_projects/) directory. The easiest way to do this is to copy an existing project and modify it. -->
 
 ## Adding some news
 
@@ -75,7 +75,7 @@ You can add news in the about page by adding new Markdown files in the [\_news](
 
 This Jekyll theme implements `collections` to let you break up your work into categories. The theme comes with two default collections: `news` and `projects`. Items from the `news` collection are automatically displayed on the home page. Items from the `projects` collection are displayed on a responsive grid on projects page.
 
-You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to [\_pages/projects.md](_pages/projects.md).
+<!-- You can easily create your own collections, apps, short stories, courses, or whatever your creative work is. To do this, edit the collections in the [\_config.yml](_config.yml) file, create a corresponding folder, and create a landing page for your collection, similar to [\_pages/projects.md](_pages/projects.md). -->
 
 ## Adding a new publication
 
@@ -175,7 +175,7 @@ To remove the blog, you have to:
 
 - delete [\_posts](_posts/) directory
 - delete blog page [\_pages/blog.md](_pages/blog.md)
-- remove reference to blog page in our [\_pages/dropdown.md](_pages/dropdown.md)
+<!-- - remove reference to blog page in our [\_pages/dropdown.md](_pages/dropdown.md) -->
 - remove the `latest_posts` part in [\_pages/about.md](_pages/about.md)
 - remove the `Blog` section in the [\_config.yml](_config.yml) file and the related parts, like the `jekyll-archives`
 
@@ -219,7 +219,7 @@ To remove the publications, you can:
 
 - delete the [\_bibliography](_bibliography/) directory
 - delete the publications page [\_pages/publications.md](_pages/publications.md)
-- remove reference to publications page in our [\_pages/dropdown.md](_pages/dropdown.md)
+<!-- - remove reference to publications page in our [\_pages/dropdown.md](_pages/dropdown.md) -->
 - remove `Jekyll Scholar` section in the [\_config.yml](_config.yml) file
 
 You can also:
@@ -278,7 +278,7 @@ In this folder you need to store your file in the same format as you would in `_
 - It will only upload files which follow the pattern `yyyy-mm-dd-title.md`
   - This means that only markdown files will be posted
   - It means that any markdown which do not follow this pattern will not be posted
-- The scheduler works by moving posts from the `_scheduled/` directory to `_posts/`, it will not post to folders like `_projects/` or `_news/`
+<!-- - The scheduler works by moving posts from the `_scheduled/` directory to `_posts/`, it will not post to folders like `_projects/` or `_news/` -->
 - The date in the name of the file is the day that file will be uploaded on
   - `2024-08-27-file1.md` will not be posted before or after 27-August-2024 (Scheduler only works for posts scheduled on the present day)
   - `2025-08-27-file2.md` will be posted exactly on 27-August-2025
