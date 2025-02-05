@@ -12,7 +12,7 @@ I have an opportunity to visit South America last year during the Christmas brea
 
 Well, I am glad that I did make the trip and certainly did not regret the decision to travel. In fact, the highlight of my trips was the visit to the Galápagos Islands in Ecuador, which are avolcanic archipelago renowned for their unique biodiversity in the Pacific Ocean. Home to species like giant tortoises, iguanas, blue-footed boobies and sea lions, I was completely captivated by the remarkable wildlife and landscape I saw in the Galápagos Islands. The archipelago consists of 13 major islands and 6 smaller islands. We visited the four main islands (Baltra, Santa Cruz, Isabella and San Cristóbal) and spotted many special species.
 
-In Galápagos, we did not see many cats and dogs on the streets, but sea lions. They are indeed playful mammals that can often be seen lounging on the benches, streets, beaches and beside the bicycles! 
+In Galápagos, we did not see many cats and dogs on the streets, but sea lions. They are indeed playful mammals that can often be seen lounging on the benches, streets, beaches and beside the bicycles!
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
@@ -40,7 +40,7 @@ My best experience was snorkeling around the Isla Pinzon. It is a small and unin
     These photos were taken with a GoPro camera while snorkelling in Isabella and San Cristóbal.
 </div>
 
-The Galápagos giant tortoise is one of the most famous animals. In fact, the islands are being named after them, as *Galápago* is an old Spanish word for tortoise. Fun fact: these tortoises weigh more than 250kg and can live more than 100 years! While they feed on grasses, they also eat cactus pads for food. Interestingly, to withstand grazing by the tortoises, the cacti also grew taller and taller with thicker and woody trunks. 
+The Galápagos giant tortoise is one of the most famous animals. In fact, the islands are being named after them, as _Galápago_ is an old Spanish word for tortoise. Fun fact: these tortoises weigh more than 250kg and can live more than 100 years! While they feed on grasses, they also eat cactus pads for food. Interestingly, to withstand grazing by the tortoises, the cacti also grew taller and taller with thicker and woody trunks.
 
 <div class="row mt-3">
     <div class="col-sm mt-3 mt-md-0">
