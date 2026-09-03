@@ -1,0 +1,25 @@
+[
+  {
+    "listing": "/blogs.html",
+    "items": [
+      "/posts/14_graph_rag/06_flight_example_gds.html",
+      "/posts/14_graph_rag/05_crime_example.html",
+      "/posts/14_graph_rag/04_movie_example.html",
+      "/posts/14_graph_rag/03_finding_similarities_in_graph.html",
+      "/posts/14_graph_rag/02_merge_in_neo4j.html",
+      "/posts/14_graph_rag/01_graph_rag_fundamentals.html",
+      "/posts/13_inverse_pinns/dynamic_pinn_06_inverse_pinns.html",
+      "/posts/12_coupled_ode/dynamic_pinn_05_coupled_ode.html",
+      "/posts/10_parameterised_pinn/dynamic_pinn_03_parameterised_pinn.html",
+      "/posts/09_pinn_non-linear_ode/dynamic_pinn_02_non-linear_pinn_ode.html",
+      "/posts/08_pinn_introduction/dynamic_pinn_01_understanding_pinn.html",
+      "/posts/07_gradient_descent/gradients_descent.html",
+      "/posts/06_neural_network_introduction/neural_networks_intro.html",
+      "/posts/05_automatic_differentiation/autodiff_intro.html",
+      "/posts/04_tensor_operations/02_tensor_operations.html",
+      "/posts/03_tensor_manipulation/01_tensor_manipulation.html",
+      "/posts/02_cooking-with-coroutines/asyncio.html",
+      "/posts/01_galapagos/index.html"
+    ]
+  }
+]

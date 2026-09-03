@@ -1,0 +1,20 @@
+/* css styles */
+
+.title {
+  text-align: center;
+}
+
+p {
+  text-align: justify
+}
+
+/* Ensure list items use justified alignment like paragraphs */
+li,
+li p {
+  text-align: justify;
+}
+
+/* Prevent toc-expand: false from collapsing the "Other Formats" list */
+.quarto-alternate-formats ul {
+  display: block !important;
+}

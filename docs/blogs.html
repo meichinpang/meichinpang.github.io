@@ -1,0 +1,1221 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>blogs – meichinpang</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-845c23b38eaddc0f92fda52bfe77a8c8.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-424cbc8b25c67bda0147ac9654911f8a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-listing .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-date','listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
+      
+      searchColumns: ["listing-date","listing-title","listing-author","listing-image","listing-description","listing-categories"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-listing'] = new List('listing-listing', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
+<link rel="alternate" type="application/rss+xml" title="meichinpang" href="blogs.xml" data-external="1"></head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+    <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a class="navbar-brand" href="./index.html">
+    <span class="navbar-title">meichinpang</span>
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./index.html"> 
+<span class="menu-text">Home</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./about.html"> 
+<span class="menu-text">About</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link active" href="./blogs.html" aria-current="page"> 
+<span class="menu-text">Blogs</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="./publications.html"> 
+<span class="menu-text">Publications</span></a>
+  </li>  
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools">
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(18)</span></div><div class="category" data-category="QUklMjB3b3JrZmxvd3M=">AI workflows <span class="quarto-category-count">(1)</span></div><div class="category" data-category="YXN5bmNpbw==">asyncio <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Y29yb3V0aW5lcw==">coroutines <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3JhZGllbnQlMjBkZXNjZW50">gradient descent <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3JhcGgtZGF0YS1zY2llbmNl">graph-data-science <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Z3JhcGgtcmFn">graph-rag <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bGluZWFyJTIwcmVncmVzc2lvbg==">linear regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TExN">LLM <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bmVvNGo=">neo4j <span class="quarto-category-count">(6)</span></div><div class="category" data-category="bmV1cmFsLW5ldHdvcmtz">neural-networks <span class="quarto-category-count">(5)</span></div><div class="category" data-category="UElOTg==">PINN <span class="quarto-category-count">(5)</span></div><div class="category" data-category="cG9seW5vbWlhbCUyMHJlZ3Jlc3Npb24=">polynomial regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="cHl0b3JjaA==">pytorch <span class="quarto-category-count">(10)</span></div><div class="category" data-category="cmVmbGVjdGlvbg==">reflection <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2NpTUw=">SciML <span class="quarto-category-count">(8)</span></div><div class="category" data-category="dHJhdmVs">travel <span class="quarto-category-count">(1)</span></div><div class="category" data-category="d2lsZGxpZmU=">wildlife <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content column-page-left" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"></header>
+
+
+
+
+
+
+
+
+<div class="quarto-listing quarto-listing-container-default" id="listing-listing">
+<div class="list quarto-listing-default">
+<div class="quarto-post image-right" data-index="0" data-categories="Z3JhcGgtcmFnJTJDbmVvNGolMkNncmFwaC1kYXRhLXNjaWVuY2U=" data-listing-date-sort="1787349600000" data-listing-file-modified-sort="1788463621844" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="38" data-listing-word-count-sort="7454">
+<div class="thumbnail"><a href="./posts/14_graph_rag/06_flight_example_gds.html" class="no-external">
+
+<img loading="lazy" src="./posts/14_graph_rag/figures/graph_rag.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/14_graph_rag/06_flight_example_gds.html" class="no-external">Graph Data Science with Neo4j: PageRank and Louvain on the Airport Dataset</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3JhcGgtcmFn'); return false;">graph-rag</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmVvNGo='); return false;">neo4j</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3JhcGgtZGF0YS1zY2llbmNl'); return false;">graph-data-science</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/14_graph_rag/06_flight_example_gds.html" class="no-external">
+<p>The starting point of a Graph Data Science tutorial built on an airport dataset. This post starts the dedicated flights DBMS with Docker Compose, makes the CSV visible to Neo4j, loads the airport node list with <code>LOAD CSV</code>, and projects the result into memory for GDS.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/14_graph_rag/06_flight_example_gds.html" class="no-external">
+<div class="listing-date">
+Aug 22, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="1" data-categories="Z3JhcGgtcmFnJTJDbmVvNGolMkNMTE0=" data-listing-date-sort="1787349600000" data-listing-file-modified-sort="1788462816210" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="10" data-listing-word-count-sort="1923">
+<div class="thumbnail"><a href="./posts/14_graph_rag/05_crime_example.html" class="no-external">
+
+<img loading="lazy" src="./posts/14_graph_rag/figures/crime_00_header_image.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/14_graph_rag/05_crime_example.html" class="no-external">Crime Investigation with Neo4j: Exploring the Sandbox Dataset</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3JhcGgtcmFn'); return false;">graph-rag</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmVvNGo='); return false;">neo4j</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/14_graph_rag/05_crime_example.html" class="no-external">
+<p>A hands-on walkthrough of crime investigation with Neo4j, built on the Crime Investigation dataset that ships as a Neo4j Sandbox. This post covers spinning up a sandbox in the browser, loading the sample data, reading the schema, and then querying it to trace an officer’s caseload, isolate the drug-related crimes, and uncover how the people involved are connected through a shortest-path search.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/14_graph_rag/05_crime_example.html" class="no-external">
+<div class="listing-date">
+Aug 22, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="2" data-categories="Z3JhcGgtcmFnJTJDbmVvNGolMkNMTE0=" data-listing-date-sort="1786831200000" data-listing-file-modified-sort="1788463230263" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="80" data-listing-word-count-sort="15869">
+<div class="thumbnail"><a href="./posts/14_graph_rag/04_movie_example.html" class="no-external">
+
+<img loading="lazy" src="./posts/14_graph_rag/figures/movie_00_header_image.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/14_graph_rag/04_movie_example.html" class="no-external">Movie Analytics with Neo4j: An End-to-End Example</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3JhcGgtcmFn'); return false;">graph-rag</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmVvNGo='); return false;">neo4j</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/14_graph_rag/04_movie_example.html" class="no-external">
+<p>An end-to-end walkthrough of analysing movie data with Neo4j, starting from the Movie graph that ships with every Neo4j installation. This post covers creating the dataset with Cypher, and then querying it to explore actors, directors, reviewers, and the relationships between them.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/14_graph_rag/04_movie_example.html" class="no-external">
+<div class="listing-date">
+Aug 16, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="3" data-categories="Z3JhcGgtcmFnJTJDbmVvNGolMkNMTE0=" data-listing-date-sort="1786744800000" data-listing-file-modified-sort="1788462675370" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="22" data-listing-word-count-sort="4203">
+<div class="thumbnail"><a href="./posts/14_graph_rag/03_finding_similarities_in_graph.html" class="no-external">
+
+<img loading="lazy" src="./posts/14_graph_rag/figures/finding_similarities_header.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/14_graph_rag/03_finding_similarities_in_graph.html" class="no-external">Finding Similarities in a Graph</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3JhcGgtcmFn'); return false;">graph-rag</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmVvNGo='); return false;">neo4j</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/14_graph_rag/03_finding_similarities_in_graph.html" class="no-external">
+<p>Similarity between entities falls out naturally from the relationships they share. This post uses Cypher to find playlists that overlap, then ranks them by how many tracks they share and how closely those tracks line up.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/14_graph_rag/03_finding_similarities_in_graph.html" class="no-external">
+<div class="listing-date">
+Aug 15, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="4" data-categories="Z3JhcGgtcmFnJTJDbmVvNGolMkNMTE0=" data-listing-date-sort="1786226400000" data-listing-file-modified-sort="1788463317649" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="16" data-listing-word-count-sort="3164">
+<div class="thumbnail"><a href="./posts/14_graph_rag/02_merge_in_neo4j.html" class="no-external">
+
+<img loading="lazy" src="./posts/14_graph_rag/figures/merged_track_header.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/14_graph_rag/02_merge_in_neo4j.html" class="no-external">Avoiding Duplicated Nodes in Neo4j with MERGE</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3JhcGgtcmFn'); return false;">graph-rag</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmVvNGo='); return false;">neo4j</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/14_graph_rag/02_merge_in_neo4j.html" class="no-external">
+<p>When loading data into a Neo4j knowledge graph, CREATE blindly inserts a new node every time, leaving duplicated, disconnected entities. This post explains why MERGE is the safer choice because its match-first-then-create behaviour prevents duplicated nodes.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/14_graph_rag/02_merge_in_neo4j.html" class="no-external">
+<div class="listing-date">
+Aug 9, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="5" data-categories="Z3JhcGgtcmFnJTJDbmVvNGolMkNMTE0=" data-listing-date-sort="1786140000000" data-listing-file-modified-sort="1788462660026" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="37" data-listing-word-count-sort="7366">
+<div class="thumbnail"><a href="./posts/14_graph_rag/01_graph_rag_fundamentals.html" class="no-external">
+
+<img loading="lazy" src="./posts/14_graph_rag/figures/graph_rag.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/14_graph_rag/01_graph_rag_fundamentals.html" class="no-external">Understanding the Fundamentals of Graph Retrieval-Augmented Generation (RAG) in LLMs</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3JhcGgtcmFn'); return false;">graph-rag</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmVvNGo='); return false;">neo4j</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/14_graph_rag/01_graph_rag_fundamentals.html" class="no-external">
+<p>Graph Retrieval-Augmented Generation (RAG) combines the power of graph databases with large language models (LLMs) to enable more accurate and context-aware information retrieval. This post explores the fundamentals of Graph RAG, including its architecture, key components, and how it leverages graph structures to enhance LLM capabilities. It also walks through installing Neo4j on Ubuntu, from the Java prerequisite and APT repository setup to starting the service and accessing the browser interface.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/14_graph_rag/01_graph_rag_fundamentals.html" class="no-external">
+<div class="listing-date">
+Aug 8, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="6" data-categories="cHl0b3JjaCUyQ1NjaU1MJTJDUElOTg==" data-listing-date-sort="1781906400000" data-listing-file-modified-sort="1788019396212" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="27" data-listing-word-count-sort="5271">
+<div class="thumbnail"><a href="./posts/13_inverse_pinns/dynamic_pinn_06_inverse_pinns.html" class="no-external">
+
+<img loading="lazy" src="./posts/13_inverse_pinns/figures/inverse_pinn.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/13_inverse_pinns/dynamic_pinn_06_inverse_pinns.html" class="no-external">Dynamic PINNs (5): Identifying Unknown Parameters using Inverse PINNs</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpTUw='); return false;">SciML</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UElOTg=='); return false;">PINN</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/13_inverse_pinns/dynamic_pinn_06_inverse_pinns.html" class="no-external">
+<p>An inverse PINN learns not just the solution to an ODE, but also an unknown physical parameter from noisy data. This notebook tackles the Duffing oscillator, treating the cubic stiffness alpha as unknown and recovering it from 250 noisy displacement measurements. We walk through the full pipeline, from ground-truth generation with solve_ivp, synthetic noise, input/output normalisation, and a three-part loss (IC, physics residual, data) to observing how the alpha parameter converges from zero to its true value over 30,000 training epochs.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/13_inverse_pinns/dynamic_pinn_06_inverse_pinns.html" class="no-external">
+<div class="listing-date">
+Jun 20, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="7" data-categories="cHl0b3JjaCUyQ1NjaU1MJTJDUElOTg==" data-listing-date-sort="1780005600000" data-listing-file-modified-sort="1788019396209" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="33" data-listing-word-count-sort="6549">
+<div class="thumbnail"><a href="./posts/12_coupled_ode/dynamic_pinn_05_coupled_ode.html" class="no-external">
+
+<img loading="lazy" src="./posts/12_coupled_ode/figures/double_pendulum.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/12_coupled_ode/dynamic_pinn_05_coupled_ode.html" class="no-external">Dynamic PINNs (4): Solving Coupled ODEs with PINNs</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpTUw='); return false;">SciML</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UElOTg=='); return false;">PINN</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/12_coupled_ode/dynamic_pinn_05_coupled_ode.html" class="no-external">
+<p>This notebook extends the hybrid PINN approach to a double pendulum, a system of two coupled nonlinear ODEs. A single network with two outputs learns both angles simultaneously, with per-angle normalisation and two ODE residuals enforced in the physics loss. Curriculum training over five progressive time windows and a reduced physics loss weight help the network learn the oscillatory dynamics accurately. The equations of motion, the first-order conversion for numerical integration, and the training setup are walked through step by step.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/12_coupled_ode/dynamic_pinn_05_coupled_ode.html" class="no-external">
+<div class="listing-date">
+May 29, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="8" data-categories="cHl0b3JjaCUyQ1NjaU1MJTJDUElOTg==" data-listing-date-sort="1778277600000" data-listing-file-modified-sort="1788019396204" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="27" data-listing-word-count-sort="5390">
+<div class="thumbnail"><a href="./posts/10_parameterised_pinn/dynamic_pinn_03_parameterised_pinn.html" class="no-external">
+
+<img loading="lazy" src="./posts/10_parameterised_pinn/figures/parameterised_pinn_V3.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/10_parameterised_pinn/dynamic_pinn_03_parameterised_pinn.html" class="no-external">Dynamic PINNs (3): Solving a Non-Linear ODE across a Range of Pendulum Lengths with a Parameterised PINN</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpTUw='); return false;">SciML</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UElOTg=='); return false;">PINN</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/10_parameterised_pinn/dynamic_pinn_03_parameterised_pinn.html" class="no-external">
+<p>This notebook extends the fixed-length PINN to a parameterised setting where the pendulum length L is treated as a variable input. A single network learns the solution for any L in [0.5, 1.5] m, eliminating the need to retrain for each design point. We compare the parameterised loss functions, training loop, and predictions against numerical ground truth at multiple L values.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/10_parameterised_pinn/dynamic_pinn_03_parameterised_pinn.html" class="no-external">
+<div class="listing-date">
+May 9, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="9" data-categories="cHl0b3JjaCUyQ1NjaU1MJTJDUElOTg==" data-listing-date-sort="1777586400000" data-listing-file-modified-sort="1788019396196" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="20" data-listing-word-count-sort="3933">
+<div class="thumbnail"><a href="./posts/09_pinn_non-linear_ode/dynamic_pinn_02_non-linear_pinn_ode.html" class="no-external">
+
+<img loading="lazy" src="./posts/09_pinn_non-linear_ode/figures/non-linear_ode.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/09_pinn_non-linear_ode/dynamic_pinn_02_non-linear_pinn_ode.html" class="no-external">Dynamic PINNs (2): Solving a Non-Linear ODE with a Physics-Informed Neural Network</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpTUw='); return false;">SciML</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UElOTg=='); return false;">PINN</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/09_pinn_non-linear_ode/dynamic_pinn_02_non-linear_pinn_ode.html" class="no-external">
+<p>This notebook compile a step-by-step guide to solving the damped pendulum equation using a PINN in PyTorch, from deriving the equation of motion, building the network and training with a physics-based loss to comparing results against a numerical ODE solver.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/09_pinn_non-linear_ode/dynamic_pinn_02_non-linear_pinn_ode.html" class="no-external">
+<div class="listing-date">
+May 1, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="10" data-categories="cHl0b3JjaCUyQ1NjaU1MJTJDUElOTg==" data-listing-date-sort="1777068000000" data-listing-file-modified-sort="1788019396191" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="37" data-listing-word-count-sort="7295">
+<div class="thumbnail"><a href="./posts/08_pinn_introduction/dynamic_pinn_01_understanding_pinn.html" class="no-external">
+
+<img loading="lazy" src="./posts/08_pinn_introduction/figures/pinn_vertical.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/08_pinn_introduction/dynamic_pinn_01_understanding_pinn.html" class="no-external">Dynamic PINNs (1): Understanding Physics-Informed Neural Networks from Scratch</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpTUw='); return false;">SciML</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('UElOTg=='); return false;">PINN</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/08_pinn_introduction/dynamic_pinn_01_understanding_pinn.html" class="no-external">
+<p>This notebook describes a step-by-step introduction to PINNs, starting from a hand-computed forward pass through a minimal network, understanding automatic differentiation and the impacts of different activation functions for PINNs to a simple PINN that solves the undamped spring-mass ODE without any labelled data.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/08_pinn_introduction/dynamic_pinn_01_understanding_pinn.html" class="no-external">
+<div class="listing-date">
+Apr 25, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="11" data-categories="cHl0b3JjaCUyQ2dyYWRpZW50JTIwZGVzY2VudCUyQ2xpbmVhciUyMHJlZ3Jlc3Npb24lMkNTY2lNTCUyQ25ldXJhbC1uZXR3b3Jrcw==" data-listing-date-sort="1775512800000" data-listing-file-modified-sort="1788019396189" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3673">
+<div class="thumbnail"><a href="./posts/07_gradient_descent/gradients_descent.html" class="no-external">
+
+<img loading="lazy" src="./posts/07_gradient_descent/figures/sse_surface.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/07_gradient_descent/gradients_descent.html" class="no-external">Understanding the Mechanisms beneath Gradient Descent</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Z3JhZGllbnQlMjBkZXNjZW50'); return false;">gradient descent</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bGluZWFyJTIwcmVncmVzc2lvbg=='); return false;">linear regression</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpTUw='); return false;">SciML</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cmFsLW5ldHdvcmtz'); return false;">neural-networks</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/07_gradient_descent/gradients_descent.html" class="no-external">
+<p>How does gradient descent find the best parameters for a model? This notebook explores how a linear regression model recovers unknown slope and intercept by minimizing a loss function, what the error surface looks like in 2D and 3D, and how partial derivatives and gradient vectors guide each optimization step.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/07_gradient_descent/gradients_descent.html" class="no-external">
+<div class="listing-date">
+Apr 7, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="12" data-categories="cHl0b3JjaCUyQ1NjaU1MJTJDbmV1cmFsLW5ldHdvcmtz" data-listing-date-sort="1774047600000" data-listing-file-modified-sort="1788019396172" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="18" data-listing-word-count-sort="3568">
+<div class="thumbnail"><a href="./posts/06_neural_network_introduction/neural_networks_intro.html" class="no-external">
+
+<img loading="lazy" src="./posts/06_neural_network_introduction/figures/multilayer_perceptron_updated.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/06_neural_network_introduction/neural_networks_intro.html" class="no-external">The Building Blocks of a Neural Network: Layers, Activations, Loss Functions, and Optimizations</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpTUw='); return false;">SciML</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cmFsLW5ldHdvcmtz'); return false;">neural-networks</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/06_neural_network_introduction/neural_networks_intro.html" class="no-external">
+<p>What makes a neural network learn? This notebook walks through the core building blocks such as layers, activation functions, loss functions, and optimizers and puts them together in PyTorch to train a small MLP that classifies battery cell performance outliers.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/06_neural_network_introduction/neural_networks_intro.html" class="no-external">
+<div class="listing-date">
+Mar 21, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="13" data-categories="cHl0b3JjaCUyQ3BvbHlub21pYWwlMjByZWdyZXNzaW9uJTJDU2NpTUwlMkNuZXVyYWwtbmV0d29ya3M=" data-listing-date-sort="1773442800000" data-listing-file-modified-sort="1788019396159" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="11" data-listing-word-count-sort="2141">
+<div class="thumbnail"><a href="./posts/05_automatic_differentiation/autodiff_intro.html" class="no-external">
+
+<img loading="lazy" src="./posts/05_automatic_differentiation/figures/mermaid_chart_polynomial_bottom_top.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/05_automatic_differentiation/autodiff_intro.html" class="no-external">Automatic Differentiation and Polynomial Regression in PyTorch</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cG9seW5vbWlhbCUyMHJlZ3Jlc3Npb24='); return false;">polynomial regression</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('U2NpTUw='); return false;">SciML</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cmFsLW5ldHdvcmtz'); return false;">neural-networks</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/05_automatic_differentiation/autodiff_intro.html" class="no-external">
+<p>An introduction to neural network fundamentals using PyTorch’s autograd for automatic differentiation, demonstrated through polynomial regression to recover unknown coefficients.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/05_automatic_differentiation/autodiff_intro.html" class="no-external">
+<div class="listing-date">
+Mar 14, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="14" data-categories="cHl0b3JjaCUyQ25ldXJhbC1uZXR3b3Jrcw==" data-listing-date-sort="1772838000000" data-listing-file-modified-sort="1788019396158" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="13" data-listing-word-count-sort="2451">
+<div class="thumbnail"><a href="./posts/04_tensor_operations/02_tensor_operations.html" class="no-external">
+
+<img loading="lazy" src="./posts/04_tensor_operations/figures/matrix_multiplication.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/04_tensor_operations/02_tensor_operations.html" class="no-external">Tensors in Action: From Element-wise Math to Matrix Multiplication in PyTorch</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cmFsLW5ldHdvcmtz'); return false;">neural-networks</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/04_tensor_operations/02_tensor_operations.html" class="no-external">
+<p>A hands-on guide to tensor operations in PyTorch covering common element-wise operations, statistical aggregations, NaN detection, the vector dot product, matrix multiplication with torch.matmul and the @ operator, singular value decomposition (SVD), and visualising a 3D saddle surface with torch.meshgrid and matplotlib.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/04_tensor_operations/02_tensor_operations.html" class="no-external">
+<div class="listing-date">
+Mar 7, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="15" data-categories="cHl0b3JjaCUyQ25ldXJhbC1uZXR3b3Jrcw==" data-listing-date-sort="1772838000000" data-listing-file-modified-sort="1788019396155" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="19" data-listing-word-count-sort="3684">
+<div class="thumbnail"><a href="./posts/03_tensor_manipulation/01_tensor_manipulation.html" class="no-external">
+
+<img loading="lazy" src="./posts/03_tensor_manipulation/figures/what_are_tensors.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/03_tensor_manipulation/01_tensor_manipulation.html" class="no-external">Shaping Up: A Hands-On Guide to Tensor Manipulation in PyTorch</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('cHl0b3JjaA=='); return false;">pytorch</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('bmV1cmFsLW5ldHdvcmtz'); return false;">neural-networks</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/03_tensor_manipulation/01_tensor_manipulation.html" class="no-external">
+<p>Learn how tensors work in PyTorch, from simple scalars to 3D arrays. This notebook walks through creating and reshaping tensors, understanding dimensions, and using operations like squeeze, unsqueeze, ravel, reshape, transpose, and stacking/splitting to manipulate tensor shapes.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/03_tensor_manipulation/01_tensor_manipulation.html" class="no-external">
+<div class="listing-date">
+Mar 7, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="16" data-categories="TExNJTJDYXN5bmNpbyUyQ2Nvcm91dGluZXMlMkNBSSUyMHdvcmtmbG93cw==" data-listing-date-sort="1769900400000" data-listing-file-modified-sort="1788019396143" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="33" data-listing-word-count-sort="6487">
+<div class="thumbnail"><a href="./posts/02_cooking-with-coroutines/asyncio.html" class="no-external">
+
+<img loading="lazy" src="./posts/02_cooking-with-coroutines/figures/asyncio-header.png" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/02_cooking-with-coroutines/asyncio.html" class="no-external">Cooking with Coroutines: A Hands-On Guide to Asynchronous Programming in Python</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('TExN'); return false;">LLM</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('YXN5bmNpbw=='); return false;">asyncio</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('Y29yb3V0aW5lcw=='); return false;">coroutines</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('QUklMjB3b3JrZmxvd3M='); return false;">AI workflows</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/02_cooking-with-coroutines/asyncio.html" class="no-external">
+<p>A hands-on guide to Python’s asynchronous framework that uses a cooking analogy to explain coroutines, the event loop, and concurrent I/O. Includes runnable examples for Jupyter and scripts, plus notes on using async patterns in AI workflows and reproducible multi-model pipelines.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/02_cooking-with-coroutines/asyncio.html" class="no-external">
+<div class="listing-date">
+Feb 1, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+<div class="quarto-post image-right" data-index="17" data-categories="dHJhdmVsJTJDcmVmbGVjdGlvbiUyQ3dpbGRsaWZl" data-listing-date-sort="1767394800000" data-listing-file-modified-sort="1788019396143" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="5" data-listing-word-count-sort="939">
+<div class="thumbnail"><a href="./posts/01_galapagos/index.html" class="no-external">
+
+<img loading="lazy" src="./posts/01_galapagos/figures/sea_turtle.jpg" class="thumbnail-image">
+
+</a></div>
+<div class="body">
+<h3 class="no-anchor listing-title">
+<a href="./posts/01_galapagos/index.html" class="no-external">Galápagos: Encounters with Tortoises, Boobies, and Sea Lions</a>
+</h3>
+<div class="listing-categories">
+
+<div class="listing-category" onclick="window.quartoListingCategory('dHJhdmVs'); return false;">travel</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('cmVmbGVjdGlvbg=='); return false;">reflection</div>
+
+<div class="listing-category" onclick="window.quartoListingCategory('d2lsZGxpZmU='); return false;">wildlife</div>
+
+</div>
+<div class="delink listing-description"><a href="./posts/01_galapagos/index.html" class="no-external">
+<p>Photos and reflections from snorkeling, island walks, and wildlife watching in the Galápagos Islands, including encounters with giant tortoises, blue-footed boobies, sea lions, and sharks in their natural habitats.</p>
+</a></div>
+</div>
+<div class="metadata">
+<a href="./posts/01_galapagos/index.html" class="no-external">
+<div class="listing-date">
+Jan 3, 2026
+</div>
+<div class="listing-author">
+Mei-Chin Pang
+</div>
+</a>
+</div>
+</div>
+</div>
+<div class="listing-no-matching d-none">No matching items</div>
+</div></main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/meichinpang\.github\.io");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+
+
+
+
+</body></html>
